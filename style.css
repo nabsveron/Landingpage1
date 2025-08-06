@@ -4,7 +4,7 @@
     align-items: center;
     padding: 10px 20px;
     border: 1px solid grey;
-    background-color: gray;
+    background-color: #007BFF;
     color: white;
     
 }
@@ -17,4 +17,67 @@ list-style: none;
 .nav-links a {
 text-decoration: none;
 color: white;
+}
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.hero-section{
+
+     padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cta-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #0056b3;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
